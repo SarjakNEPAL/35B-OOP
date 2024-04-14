@@ -13,7 +13,6 @@ public class Task3 {
             Also, "" represents an empty
 
             String. Don't forget: use \"
-
             instead of " !
 
             '' is not the same as " */
