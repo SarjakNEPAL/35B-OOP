@@ -11,6 +11,7 @@ public class Task4 {
             ***
 
             **** */
+            
         System.out.print("*\n**\n***\n****");
 
     }
