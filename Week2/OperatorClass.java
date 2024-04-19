@@ -36,5 +36,35 @@ public class OperatorClass {
         System.out.println("&& is used for AND" + (lExpression1 && lExpression2));
         System.out.println("|| is used for OR" + (lExpression1 || lExpression2));
         System.out.println("! is used for NOT" + (!lExpression1));
+
+        //unary operator
+        int uNum1= 10;
+        uNum1++;  // uNum1 = uNum1+1 //Changes value in next line
+        ++uNum1; // CHANGES value in this same line
+        System.out.println("--uNum1 unary is "+ --uNum1); //shows substracted data
+        System.out.println("uNum1-- unary is "+ uNum1--); //shows original data
+
+        //ternery operator
+        int tNum1=20, tNum2 =10;
+        String output;
+        // take the following if else as example
+        // if(tNum1>tNum2){
+        //     output= "True statement";
+        // else{
+        //     output="False output"
+        // }
+
+        output=tNum1>tNum2 ? "True Statement":"False Statement";
+        // Here ternary operator contains lExpression
+        // if expression is true it returns after the "?"
+        // if the expression is false it returns after the ":"
+
+        int intOutput = tNum2 == tNum1 ? -10 :10;
+        System.out.println(output);
+        System.out.println(intOutput);
+        
+
+        }
+        
     }
 }
