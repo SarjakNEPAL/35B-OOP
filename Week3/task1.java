@@ -16,7 +16,7 @@ public class task1 {
         int science=35,english=55,math=89,total=0,avg=0;
         total= science+english+math;
         avg= total/3;
-        if(avg < 0 || avg>100){
+        if(avg > 0 || avg<100){
             if(math<25 || science <35 || english< 35){
                 System.out.println("Fail");               
             }
