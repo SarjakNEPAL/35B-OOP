@@ -13,7 +13,7 @@ public class Task5 {
     System.out.println("Enter 2nd number");
     b= scanner.nextInt();
     scanner.close();
-    System.out.printf("%d * %d = %d",a,b,a*b);
+    System.out.printf("%d * %d = %d\n",a,b,a*b);
     System.out.printf("%d + %d = %d",a,b,a+b);
     }
 }

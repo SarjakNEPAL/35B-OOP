@@ -1,5 +1,5 @@
 package Week2;
-import java.net.SocketTimeoutException;
+
 import java.util.Scanner;
 public class TaskInputOutput {
 
