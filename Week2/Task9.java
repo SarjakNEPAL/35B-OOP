@@ -19,7 +19,5 @@ public class Task9 {
         scan.close();
         System.out.println("Non type casted area=>"+area);
         System.out.println("Typexasted area=>"+result);
-        
-       
     }   
 }
