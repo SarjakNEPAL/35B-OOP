@@ -14,8 +14,12 @@ public class Task9 {
         length=scan.nextDouble();
         System.out.println("breadth :");
         breadth=scan.nextDouble();
+        area=length * breadth;
+        result= (int)area;
         scan.close();
-        result=length * breadth;
+        System.out.println("Non type casted area=>"+area);
+        System.out.println("Typexasted area=>"+result);
+        
        
     }   
 }
