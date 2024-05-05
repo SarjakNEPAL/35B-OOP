@@ -13,10 +13,10 @@ public class TaskClass {
         Scanner scan=new Scanner(System.in);
         int a;
         do{
-            System.out.println("Enter a positive number");
+            System.out.println("Enter a negetive number");
             a=scan.nextInt();
-        }while(a<0);
-        System.out.println("Good u entered a positive number!!!");
+        }while(a>0);
+        System.out.println("Good u entered a negetive number!!!");
         scan.close();
     }
 }
