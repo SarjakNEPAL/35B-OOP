@@ -22,6 +22,13 @@ public class StaticFunctionTask {
             System.out.println("Hell0 "+ name+", Invalid age");
         }
         }
+        /*Task 2
+         * create a funtion makeSquare thats takes double and returns double of square value
+         */
+
+    public static double makeSquare(double num){
+        return num*num;
+    }
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter age");
@@ -29,7 +36,11 @@ public class StaticFunctionTask {
         System.out.println("Enter name ");
         String name=scan.nextLine();
         checkEligible(age, name);
+        System.out.println("Enter a number");
+        double num=scan.nextDouble();
+        System.out.println("Square of "+ num +" is "+makeSquare(num));
         scan.close();
+    
     }
     }
 
