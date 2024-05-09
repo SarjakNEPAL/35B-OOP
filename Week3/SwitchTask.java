@@ -5,6 +5,7 @@ public class SwitchTask {
         Scanner scanner= new Scanner(System.in);
         System.out.println("Enter integer");
         int a=scanner.nextInt();
+        scanner.close();
         switch (a) {
             case 0:
                 System.out.println("Sunday");

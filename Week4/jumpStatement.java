@@ -30,7 +30,7 @@ public class jumpStatement {
 }
 //labeled break
     outerloop:for(int outer =0;outer<2;outer++){
-        innerloop:for(int inner=0;inner<=5;inner++){
+        for(int inner=0;inner<=5;inner++){
             if(inner==2){
                 break outerloop;
             }
