@@ -21,5 +21,13 @@ public class ArrayClass {
         int arrayElement=mySecondArray[0];
         System.out.println("First index"+arrayElement);
         System.out.println("Second index" + mySecondArray[1]);
+        /* Task 1
+         * Make the following array name animals
+         * ["cat","Dog","Tiger","Snake"]
+         * Print "snake"
+         */
+        String[] animals={"cat","Dog","Tiger","Snake"};
+        System.out.println(animals[3]);
+
     }
 }
