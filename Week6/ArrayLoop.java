@@ -1,7 +1,5 @@
 package Week6;
 
-import static org.junit.jupiter.api.DynamicTest.stream;
-
 public class ArrayLoop {
     public static void main(String[] args) {
         int[] arr =new int[4];
@@ -15,7 +13,7 @@ public class ArrayLoop {
         for(int index=0; index <arrayLength;index++){
             System.out.println(arr[index]);
         }
-        
+
         // or we can se condition index <=arrayLength-1
         System.out.println("Decending Loop");
         for(int index= arrayLength -1 ;index >=0; index--){
