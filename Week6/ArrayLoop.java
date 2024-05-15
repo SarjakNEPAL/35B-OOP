@@ -1,6 +1,15 @@
 package Week6;
 
 public class ArrayLoop {
+    public static int arrayfind(String[] array, String find) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i]==(find)) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    
     public static void main(String[] args) {
         int[] arr =new int[4];
         arr[0]= -10;
@@ -32,5 +41,12 @@ public class ArrayLoop {
                 System.out.println(i);
             }
         }
+
+        //make the function for the above name finder 
+        //takes array of string and string as parameter
+        //return index if 2md argiment value matches any element of array
+        //else return -1
+        //print the returned index value
+        System.out.println(findarr(words,istiring)); 
     }
 }
