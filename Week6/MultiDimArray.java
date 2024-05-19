@@ -30,11 +30,19 @@ public class MultiDimArray {
         ar[1][1]=-20;
         ar[2][0]=-30;
         ar[2][1]=8;
-        ar[2][2]=40;
-        ar[3][0]=45;
-        ar[3][1]=50;
-        ar[3][2]=56;
+        ar[3][0]=40;
+        ar[3][1]=45;
+        ar[4][0]=50;
+        ar[4][1]=56;
+        System.out.println(ar[4][0]);
         System.out.println(ar[3][1]);
-        System.out.println(ar[3][2]);
+        // array using nested loop
+        int outerLength = twoDArray.length;
+        for(int outer =0;outer<outerLength;outer++){
+            int innerLength=twoDArray[outer].length;
+            for(int inner=0;inner <innerLength;inner++){
+                System.out.println(twoDArray[outer][inner]);
+            }
+        }
     }
 }
