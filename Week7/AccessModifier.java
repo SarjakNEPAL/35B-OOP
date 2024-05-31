@@ -21,7 +21,7 @@ class AccessExample{
     public int age; // can be accessed from anywhere
     private double salary; // can be only accessed inside this class
 
-    void setSalary(double s){ //setter setter is used to give value to privvate function from out classs
+    void setSalary(double s){ //setter setter is used to give value to privvate function from out classs/ UPDATE THE VALUES
         // always ask paramerter
         salary=s;
     }
