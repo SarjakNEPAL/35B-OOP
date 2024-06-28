@@ -78,4 +78,3 @@ class Office365 extends MsWord{
         System.out.println("Online is printing");
     }
 } 
-}

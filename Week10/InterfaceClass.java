@@ -22,26 +22,6 @@ interface DogDo extends MammalDo{
     public void bark();
 }
 
-class Huskey implements DogDo{
-    @Override
-    public void bark(){
-        System.out.println("Pyak Pyak");
-    }
-    @Override
-    public int legs(){
-        return 4;
-    }
-    @Override
-    public void move(){
-        System.out.println("huskey move fast");
-    }
-    @Override 
-    public boolean eat(String food){
-            System.out.println("Huskeu eat fish");
-            return false;
-    }
-    
-}
 
 //"implements" keyword to use interface 
 class Wolf implements AnimalDo{
