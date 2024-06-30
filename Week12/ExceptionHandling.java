@@ -60,6 +60,7 @@ public class ExceptionHandling {
         throwExample();
         System.out.println("Program end");
         
+        
     }
     static void throwExample(){
         throw new ArithmeticException("Where is the numnber?");
@@ -67,5 +68,6 @@ public class ExceptionHandling {
     static void checkTry()  throws Exception{
         System.out.println("When running hthis funtion wrap around try catch");
     }
+    
 
 }
